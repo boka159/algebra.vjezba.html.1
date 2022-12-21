@@ -7,7 +7,7 @@
     <style>
         table, td, th{
             border: 1px solid #000;
-            border-collapse: collapse;
+            /* border-collapse: collapse; */
             text-align: center;
         }
     </style>
@@ -54,15 +54,45 @@
 <hr>
     <section>
         <h2 id="#Tablica2">Tablica 2</h2>
-        <table>
-            <tbody>
+        <table style="width: 100%;">
+            <thead>
                 <tr>
-                    <td>1</td>
-                    <td>2</td>
+                    <th>Redni broj</th>
+                    <th>Materijal</th>
+                    <th>Materijal 2</th>
+                    <th>Materijal 3</th>
+                    <th>Materijal 4</th>
                 </tr>
                 <tr>
                     <td>1</td>
+                    <td>Plastika</td>
+                    <td>Željezo</td>
+                    <td>Guma</td>
+                    <td>-</td>
+                </tr>
+                <tr>
                     <td>2</td>
+                    <td>Željezo</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="2">Kombinacija željeza i plastike</td>
+                    <td colspan="2">Kombinacija raznih materijala</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>-</td>
+                    <td colspan="2">Kobinacija željeza i gume</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="2">Kombinacija drva, željeza i plastike</td>
+                    <td>-</td>
+                    <td>-</td>
                 </tr>
             </tbody>
         </table>
@@ -76,10 +106,12 @@
                 <tr>
                     <td>1</td>
                     <td>2</td>
+                    <td>3</td>
                 </tr>
                 <tr>
                     <td>1</td>
                     <td>2</td>
+                    <td>3</td>
                 </tr>
             </tbody>
         </table>
