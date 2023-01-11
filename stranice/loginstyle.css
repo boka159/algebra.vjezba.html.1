@@ -1,0 +1,61 @@
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn{
+        width: 100%;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 16px;
+}
+
+form {
+    border: solid 3px green;
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block; 
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+button {
+    color: white;
+    background-color: green;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn {
+    background-color: red;
+    width: auto;
+    padding: 10px 18px;
+}
+
+.psw {
+    float: right;
+    padding: 16px;
+}
