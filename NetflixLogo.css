@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.netflix-logo {
+    width: 7vh;
+    height: 30vh;
+    background-color: rgb(112, 0, 0);
+    position: relative;
+}
+
+.netflix-logo::before {
+    content: "";
+    width: 7vh;
+    height: 30vh;
+    background-color: rgb(163, 2, 2);
+    position: absolute;
+    transform: skew(20deg);
+    left: 5.5vh;
+    box-shadow: 0 0 2.5vh -1vh black;
+}
+
+.netflix-logo::after {
+    content: "";
+    width: 7vh;
+    height: 30vh;
+    background-color: rgb(112, 0, 0);
+    position: absolute;
+    left: 11vh;
+    z-index: -1;
+}
+
+.donji-rubovi {
+    width: 7.5vh;
+    height: 2vh;
+    position: absolute;
+    background-color: black;
+    bottom: -1vh;
+    transform: rotateZ(-5deg);
+}
+
+.donji-rubovi::before {
+    content: "";
+    width: 7.8vh;
+    height: 2vh;
+    position: absolute;
+    background-color: black;
+    bottom: -1vh;
+    transform: rotateZ(12deg);
+    left: 10.2vh;
+}

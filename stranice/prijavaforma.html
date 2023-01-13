@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prijavaforma.css">
+    <title>Forma za prijavu</title>
+</head>
+<body>
+    <form action="/action_page.php" style="border: solid 1px #ccc;">
+    <div class="container">
+        <h1>Forma za prijavu</h1>
+        <p>Molim unesite podatke u formu za kreiranje novog računa</p>
+        <hr>
+
+        <label for="email"><b>Email *</b></label>
+        <input type="text" placeholder="Unesite Email" name="email" id="email" required>
+
+        <label for="psw"><b>Lozinka *</b></label>
+        <input type="password" placeholder="Unesite lozinku" name="psw" required>
+
+        <label for="psw-repeat"><b>Ponovite lozinku *</b></label>
+        <input type="password" placeholder="Ponovite lozinku" name="psw-repeat" required>
+
+        <label for="checkbox" name="remember" checked>Zapamti me</label>
+    
+        <p>Prilikom kreiranja računa pristajete na naše <a href="#"> Uvjete korištenja.</a></p>
+    <div class="clearfix">
+        <button type="button" class="cancelbtn">Odustani</button>
+        <button type="submit" class="signupbtn">Prijava</button>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
