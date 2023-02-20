@@ -6,3 +6,8 @@ for (var i = 1; i <= 20; i++) {
         console.log(`Broj ${i} je neparan`);
     }
 }
+
+var names = ["john", "Jane"];
+
+console.log(names);
+console.log(typeof(names));
